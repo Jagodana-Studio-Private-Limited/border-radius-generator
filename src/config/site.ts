@@ -1,174 +1,168 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Border Radius Generator",
+  title: "Border Radius Generator - Visual CSS Border Radius Editor",
+  description:
+    "Create beautiful CSS border-radius values with an interactive visual editor. Adjust individual corners, use presets, and copy CSS instantly.",
+  url: "https://border-radius-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Box",
+  brandAccentColor: "#8b5cf6",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "border-radius",
+    "css border-radius generator",
+    "border radius css",
+    "rounded corners css",
+    "css border radius tool",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#7c3aed",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/border-radius-generator",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "Border Radius Generator is a free visual CSS tool that helps you create perfect rounded corners for your web designs. Adjust each corner individually or use presets to get started quickly.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Interactive visual corner editing",
+      "Advanced 8-value syntax support",
+      "One-click CSS copy",
+      "Ready-made presets",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free CSS Tool",
+    titleLine1: "Visual CSS",
+    titleGradient: "Border Radius Generator",
+    subtitle:
+      "Design beautiful rounded corners with an interactive visual editor. Adjust each corner individually, pick from presets, and copy production-ready CSS in one click.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🎨",
+      title: "Visual Editor",
+      description:
+        "See your border-radius changes in real-time on a live preview box.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "⚡",
+      title: "Instant Presets",
+      description:
+        "Jump-start with pill, circle, squircle, blob, and more built-in presets.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "📋",
+      title: "Copy & Go",
+      description:
+        "One-click copy of production-ready CSS you can drop straight into your code.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "CSS Box Shadow Generator",
+      url: "https://css-box-shadow-generator.tools.jagodana.com",
+      icon: "🔲",
+      description: "Create beautiful CSS box shadows visually.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "CSS Grid Generator",
+      url: "https://css-grid-generator.tools.jagodana.com",
+      icon: "📐",
+      description: "Build CSS Grid layouts with a visual editor.",
     },
     {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
+      name: "CSS Flexbox Playground",
+      url: "https://css-flexbox-playground.tools.jagodana.com",
+      icon: "📦",
+      description: "Learn and experiment with CSS Flexbox properties.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "Gradient Generator",
+      url: "https://gradient-generator.tools.jagodana.com",
+      icon: "🌈",
+      description: "Create beautiful CSS gradients with a visual editor.",
     },
     {
       name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
+      url: "https://color-palette-explorer.tools.jagodana.com",
       icon: "🎭",
       description: "Extract color palettes from any image.",
     },
     {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "Theme Contrast Checker",
+      url: "https://theme-contrast-checker.tools.jagodana.com",
+      icon: "🔍",
+      description: "Check color contrast for WCAG accessibility.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Adjust Corners",
+      text: "Use the sliders to set the border-radius for each corner individually, or link them to change all at once.",
+      url: "",
+    },
+    {
+      name: "Try Presets",
+      text: "Click a preset button like Pill, Circle, or Blob to instantly apply popular border-radius patterns.",
+      url: "",
+    },
+    {
+      name: "Copy CSS",
+      text: "Click the copy button to copy the generated CSS border-radius value to your clipboard, ready to paste into your code.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What is CSS border-radius?",
+      answer:
+        "CSS border-radius is a property that rounds the corners of an element's outer border edge. You can set it as a single value for all corners, or specify each corner individually.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "What is the 8-value border-radius syntax?",
+      answer:
+        "The 8-value syntax uses a slash (/) to separate horizontal and vertical radii: border-radius: TL TR BR BL / TL TR BR BL. This lets you create elliptical corners for more complex shapes.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "How do I make a circle with border-radius?",
+      answer:
+        "Set border-radius to 50% on a square element. If the element is not square, 50% will create an ellipse instead.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "What units can I use for border-radius?",
+      answer:
+        "You can use px, em, rem, %, vw, vh, and other CSS length units. Percentages are relative to the element's dimensions — horizontal radii use the width, vertical radii use the height.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "Border Radius Generator - Visual CSS Border Radius Editor",
+      description:
+        "Create beautiful CSS border-radius values with an interactive visual editor. Adjust individual corners, use presets, and copy CSS instantly.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
